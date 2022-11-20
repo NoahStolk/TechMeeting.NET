@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample04.RequiredKeyword.Sy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample05.RequiredKeyword.Newtonsoft.Json", "Sample05.RequiredKeyword.Newtonsoft.Json\Sample05.RequiredKeyword.Newtonsoft.Json.csproj", "{A760C230-12F2-4D7C-AFF5-6CF486EBBE96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample06.RawStringLiterals", "Sample06.RawStringLiterals\Sample06.RawStringLiterals.csproj", "{4472A387-E652-40B8-AFDE-5877DC0D71C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleExtra01.ExtendedNameofScope", "SampleExtra01.ExtendedNameofScope\SampleExtra01.ExtendedNameofScope.csproj", "{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{A760C230-12F2-4D7C-AFF5-6CF486EBBE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A760C230-12F2-4D7C-AFF5-6CF486EBBE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A760C230-12F2-4D7C-AFF5-6CF486EBBE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4472A387-E652-40B8-AFDE-5877DC0D71C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4472A387-E652-40B8-AFDE-5877DC0D71C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4472A387-E652-40B8-AFDE-5877DC0D71C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4472A387-E652-40B8-AFDE-5877DC0D71C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
