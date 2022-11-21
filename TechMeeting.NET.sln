@@ -12,13 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample05.RequiredKeyword.Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample06.RawStringLiterals", "Sample06.RawStringLiterals\Sample06.RawStringLiterals.csproj", "{4472A387-E652-40B8-AFDE-5877DC0D71C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample07.StaticAbstracts.GenericMath", "Sample07.StaticAbstracts.GenericMath\Sample07.StaticAbstracts.GenericMath.csproj", "{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample08.StaticAbstracts.Validation", "Sample08.StaticAbstracts.Validation\Sample08.StaticAbstracts.Validation.csproj", "{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleExtra01.ExtendedNameofScope", "SampleExtra01.ExtendedNameofScope\SampleExtra01.ExtendedNameofScope.csproj", "{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample07.StaticAbstracts", "Sample07.StaticAbstracts\Sample07.StaticAbstracts.csproj", "{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample08.StaticAbstracts.GenericMath", "Sample08.StaticAbstracts.GenericMath\Sample08.StaticAbstracts.GenericMath.csproj", "{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample09.StaticAbstracts.GenericParsing", "Sample09.StaticAbstracts.GenericParsing\Sample09.StaticAbstracts.GenericParsing.csproj", "{7257A466-4A21-4E3B-86B5-3080846A8C41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,9 +60,5 @@ Global
 		{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7257A466-4A21-4E3B-86B5-3080846A8C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7257A466-4A21-4E3B-86B5-3080846A8C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7257A466-4A21-4E3B-86B5-3080846A8C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7257A466-4A21-4E3B-86B5-3080846A8C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

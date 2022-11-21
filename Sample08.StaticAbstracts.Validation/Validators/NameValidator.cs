@@ -1,9 +1,9 @@
-using Sample07.StaticAbstracts.Data;
+using Sample08.StaticAbstracts.Validation.Data;
 using System.ComponentModel.DataAnnotations;
 
-namespace Sample07.StaticAbstracts.Validators;
+namespace Sample08.StaticAbstracts.Validation.Validators;
 
-public sealed class TradeItemNameValidator : IValidator<TradeItem>
+public sealed class NameValidator : IValidator<TradeItem>
 {
 	public void Validate(TradeItem obj)
 	{

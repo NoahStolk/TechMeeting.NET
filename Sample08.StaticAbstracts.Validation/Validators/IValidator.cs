@@ -1,4 +1,4 @@
-namespace Sample07.StaticAbstracts.Validators;
+namespace Sample08.StaticAbstracts.Validation.Validators;
 
 public interface IValidator<in T>
 {
