@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample06.RawStringLiterals"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleExtra01.ExtendedNameofScope", "SampleExtra01.ExtendedNameofScope\SampleExtra01.ExtendedNameofScope.csproj", "{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample07.StaticAbstracts", "Sample07.StaticAbstracts\Sample07.StaticAbstracts.csproj", "{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample08.StaticAbstracts.GenericMath", "Sample08.StaticAbstracts.GenericMath\Sample08.StaticAbstracts.GenericMath.csproj", "{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
