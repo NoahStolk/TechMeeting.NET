@@ -3,13 +3,13 @@ using Sample14.StaticAbstracts.Validation.Validators;
 
 TradeItem tradeItem = new("Flower", "1234");
 
-Validate<CodeValidator, TradeItem>(tradeItem);
-Validate<NameValidator, TradeItem>(tradeItem);
+Validate<CodeValidator, TradeItem>(tradeItem, () => throw new ArgumentException());
+Validate<NameValidator, TradeItem>(tradeItem, () => throw new InvalidOperationException());
 
-static void Validate<TValidator, TData>(TData data)
-	where TValidator : IValidator<TData>, new()
+static void Validate<TValidator, TData>(TData data, Action action)
+	where TValidator : IValidator<TValidator, TData>
 {
-	TValidator validator = new();
+	TValidator validator = TValidator.Construct(action);
 	validator.Validate(data);
 }
 

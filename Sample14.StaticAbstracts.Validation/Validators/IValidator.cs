@@ -1,7 +1,9 @@
 namespace Sample14.StaticAbstracts.Validation.Validators;
 
-public interface IValidator<in T>
+public interface IValidator<out TSelf, in T>
+	where TSelf : IValidator<TSelf, T>
 {
-	// TODO: static abstract
+	static abstract TSelf Construct(Action handler);
+
 	void Validate(T obj);
 }
