@@ -22,20 +22,20 @@ static decimal SumDecimal(IEnumerable<decimal> arr)
 	return result;
 }
 
-IEnumerable<int> ints = ParseAllInts(new[] { "1", "2", "3" }, null);
-IEnumerable<decimal> decimals = ParseAllDecimals(new[] { "1.5", "2.25", "3.125" }, null);
+IEnumerable<int> ints = ParseAllInts(new[] { "1", "2", "3" });
+IEnumerable<decimal> decimals = ParseAllDecimals(new[] { "1.5", "2.25", "3.125" });
 
 Console.WriteLine(string.Join(' ', SumInt(ints)));
 Console.WriteLine(string.Join(' ', SumDecimal(decimals)));
 
-static IEnumerable<int> ParseAllInts(IEnumerable<string> input, IFormatProvider? formatProvider)
+static IEnumerable<int> ParseAllInts(IEnumerable<string> input)
 {
-	return input.Select(str => int.Parse(str, formatProvider));
+	return input.Select(str => int.Parse(str, null));
 }
 
-static IEnumerable<decimal> ParseAllDecimals(IEnumerable<string> input, IFormatProvider? formatProvider)
+static IEnumerable<decimal> ParseAllDecimals(IEnumerable<string> input)
 {
-	return input.Select(str => decimal.Parse(str, formatProvider));
+	return input.Select(str => decimal.Parse(str, null));
 }
 
 Console.WriteLine(new Vector2i<int>(1, 3));
