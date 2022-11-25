@@ -12,21 +12,33 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample05.RequiredKeyword.Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample06.RawStringLiterals", "Sample06.RawStringLiterals\Sample06.RawStringLiterals.csproj", "{4472A387-E652-40B8-AFDE-5877DC0D71C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample07.StaticAbstracts.GenericMath", "Sample07.StaticAbstracts.GenericMath\Sample07.StaticAbstracts.GenericMath.csproj", "{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample13.StaticAbstracts.GenericMath", "Sample13.StaticAbstracts.GenericMath\Sample13.StaticAbstracts.GenericMath.csproj", "{3ED049B4-ED91-4B3D-83F0-5A4AE20CC4BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample08.StaticAbstracts.Validation", "Sample08.StaticAbstracts.Validation\Sample08.StaticAbstracts.Validation.csproj", "{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample14.StaticAbstracts.Validation", "Sample14.StaticAbstracts.Validation\Sample14.StaticAbstracts.Validation.csproj", "{D5B0022E-3C4B-49ED-AEA9-ED0795F9F0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleExtra01.ExtendedNameofScope", "SampleExtra01.ExtendedNameofScope\SampleExtra01.ExtendedNameofScope.csproj", "{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample07.ExtendedNameofScope", "Sample07.ExtendedNameofScope\Sample07.ExtendedNameofScope.csproj", "{C70FDFDA-18CF-4EF4-BFAD-7BBDD1568C70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample09.StaticAbstracts.Factory", "Sample09.StaticAbstracts.Factory\Sample09.StaticAbstracts.Factory.csproj", "{D179EA1C-F39E-4257-BADC-97C44CA8E84C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample15.StaticAbstracts.Factory", "Sample15.StaticAbstracts.Factory\Sample15.StaticAbstracts.Factory.csproj", "{D179EA1C-F39E-4257-BADC-97C44CA8E84C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample10.StaticAbstracts.MinimalApi", "Sample10.StaticAbstracts.MinimalApi\Sample10.StaticAbstracts.MinimalApi.csproj", "{98879B44-943D-45B1-991B-F29639BE877B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample16.StaticAbstracts.MinimalApi", "Sample16.StaticAbstracts.MinimalApi\Sample16.StaticAbstracts.MinimalApi.csproj", "{98879B44-943D-45B1-991B-F29639BE877B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample11.RateLimiting", "Sample11.RateLimiting\Sample11.RateLimiting.csproj", "{B198632C-4E53-44D8-9365-BC0B47BE15E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample18.RateLimiting", "Sample18.RateLimiting\Sample18.RateLimiting.csproj", "{B198632C-4E53-44D8-9365-BC0B47BE15E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample12.RateLimiting.Controllers", "Sample12.RateLimiting.Controllers\Sample12.RateLimiting.Controllers.csproj", "{66FAC824-66AE-4C03-8968-66E93FC6CB8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample19.RateLimiting.Controllers", "Sample19.RateLimiting.Controllers\Sample19.RateLimiting.Controllers.csproj", "{66FAC824-66AE-4C03-8968-66E93FC6CB8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample13.RateLimiting.CustomPolicy", "Sample13.RateLimiting.CustomPolicy\Sample13.RateLimiting.CustomPolicy.csproj", "{0CCA966A-D2E9-41CF-B8CA-8B314BCE2460}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample20.RateLimiting.CustomPolicy", "Sample20.RateLimiting.CustomPolicy\Sample20.RateLimiting.CustomPolicy.csproj", "{0CCA966A-D2E9-41CF-B8CA-8B314BCE2460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample17.GenericAttributes", "Sample17.GenericAttributes\Sample17.GenericAttributes.csproj", "{3BB8FA1D-5881-4286-A67C-744109286A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample11.MultiLineStringInterpolation", "Sample11.MultiLineStringInterpolation\Sample11.MultiLineStringInterpolation.csproj", "{1A188179-0BAA-46F6-9646-AFC1652F1C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample12.CallerArgumentExpression", "Sample12.CallerArgumentExpression\Sample12.CallerArgumentExpression.csproj", "{D25DEB21-2B69-43F6-9F7F-AD3145A9651E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample08.GlobalUsings", "Sample08.GlobalUsings\Sample08.GlobalUsings.csproj", "{9EE2B423-F010-4792-B60D-A8C41BD839B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample09.ImplicitUsings", "Sample09.ImplicitUsings\Sample09.ImplicitUsings.csproj", "{DF0D3B1E-F1CF-4839-A11B-548C0A740E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample10.FileScopedNamespaces", "Sample10.FileScopedNamespaces\Sample10.FileScopedNamespaces.csproj", "{B97066A5-E97C-47B7-ABA5-B0BADE4272D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,5 +102,29 @@ Global
 		{0CCA966A-D2E9-41CF-B8CA-8B314BCE2460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CCA966A-D2E9-41CF-B8CA-8B314BCE2460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CCA966A-D2E9-41CF-B8CA-8B314BCE2460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB8FA1D-5881-4286-A67C-744109286A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB8FA1D-5881-4286-A67C-744109286A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB8FA1D-5881-4286-A67C-744109286A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB8FA1D-5881-4286-A67C-744109286A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A188179-0BAA-46F6-9646-AFC1652F1C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A188179-0BAA-46F6-9646-AFC1652F1C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A188179-0BAA-46F6-9646-AFC1652F1C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A188179-0BAA-46F6-9646-AFC1652F1C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25DEB21-2B69-43F6-9F7F-AD3145A9651E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25DEB21-2B69-43F6-9F7F-AD3145A9651E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25DEB21-2B69-43F6-9F7F-AD3145A9651E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25DEB21-2B69-43F6-9F7F-AD3145A9651E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE2B423-F010-4792-B60D-A8C41BD839B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE2B423-F010-4792-B60D-A8C41BD839B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE2B423-F010-4792-B60D-A8C41BD839B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE2B423-F010-4792-B60D-A8C41BD839B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0D3B1E-F1CF-4839-A11B-548C0A740E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0D3B1E-F1CF-4839-A11B-548C0A740E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0D3B1E-F1CF-4839-A11B-548C0A740E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0D3B1E-F1CF-4839-A11B-548C0A740E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97066A5-E97C-47B7-ABA5-B0BADE4272D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97066A5-E97C-47B7-ABA5-B0BADE4272D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97066A5-E97C-47B7-ABA5-B0BADE4272D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97066A5-E97C-47B7-ABA5-B0BADE4272D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
