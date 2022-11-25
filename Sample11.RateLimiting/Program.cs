@@ -8,6 +8,7 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Add a fixed window limiter. Other limiters are: sliding window, token bucket, concurrency.
 builder.Services.AddRateLimiter(_ => _
 	.AddFixedWindowLimiter(policyName: fixedRateLimiterPolicy, options =>
 	{
@@ -23,11 +24,8 @@ app.UseRateLimiter();
 
 app.MapGet("/", () => Results.Ok($"Time: {DateTime.Now:T}")).RequireRateLimiting(fixedRateLimiterPolicy);
 
-if (app.Environment.IsDevelopment())
-{
-	app.UseSwagger();
-	app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
