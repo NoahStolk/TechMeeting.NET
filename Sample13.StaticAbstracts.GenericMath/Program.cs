@@ -1,41 +1,29 @@
 using Sample13.StaticAbstracts.GenericMath;
 using System.Numerics;
 
-Console.WriteLine(SumInt(new[] { 1, 2, 3, 4 }));
-Console.WriteLine(SumDecimal(new[] { 1, 2, 3, 4.5m }));
+Console.WriteLine(Sum(new[] { 1, 2, 3, 4 }));
+Console.WriteLine(Sum(new[] { 1, 2, 3, 4.5m }));
 
-static int SumInt(IEnumerable<int> ints)
+static T Sum<T>(IEnumerable<T> numbers)
+	where T : INumber<T>
 {
-	int result = 0;
-	foreach (int i in ints)
+	T result = T.Zero;
+	foreach (T i in numbers)
 		result += i;
 
 	return result;
 }
 
-static decimal SumDecimal(IEnumerable<decimal> decimals)
+IEnumerable<int> ints = ParseAll<int>(new[] { "1", "2", "3" });
+IEnumerable<decimal> decimals = ParseAll<decimal>(new[] { "1.5", "2.25", "3.125" });
+
+Console.WriteLine(string.Join(' ', Sum(ints)));
+Console.WriteLine(string.Join(' ', Sum(decimals)));
+
+static IEnumerable<T> ParseAll<T>(IEnumerable<string> input)
+	where T : IParsable<T>
 {
-	decimal result = 0;
-	foreach (decimal d in decimals)
-		result += d;
-
-	return result;
-}
-
-IEnumerable<int> ints = ParseAllInts(new[] { "1", "2", "3" });
-IEnumerable<decimal> decimals = ParseAllDecimals(new[] { "1.5", "2.25", "3.125" });
-
-Console.WriteLine(string.Join(' ', SumInt(ints)));
-Console.WriteLine(string.Join(' ', SumDecimal(decimals)));
-
-static IEnumerable<int> ParseAllInts(IEnumerable<string> input)
-{
-	return input.Select(str => int.Parse(str, null));
-}
-
-static IEnumerable<decimal> ParseAllDecimals(IEnumerable<string> input)
-{
-	return input.Select(str => decimal.Parse(str, null));
+	return input.Select(str => T.Parse(str, null));
 }
 
 Console.WriteLine(new Vector2i<int>(1, 3));

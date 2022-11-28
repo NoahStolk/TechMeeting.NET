@@ -7,10 +7,9 @@ Validate<CodeValidator, TradeItem>(tradeItem);
 Validate<NameValidator, TradeItem>(tradeItem);
 
 static void Validate<TValidator, TData>(TData data)
-	where TValidator : IValidator<TData>, new()
+	where TValidator : IValidator<TData>
 {
-	TValidator validator = new();
-	validator.Validate(data);
+	TValidator.Validate(data);
 }
 
 /*
